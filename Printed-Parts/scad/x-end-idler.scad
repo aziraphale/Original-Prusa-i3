@@ -88,7 +88,7 @@ module selective_infill()mirror([0,1,0]) translate([-50, -33, 0.6])
     
    
 module reinforcement_selective_infill(){
-    rotate([90,0,-15,]) translate ([-1.5, 8, 26])linear_extrude(height = 0.2) polygon( points=[[-2,0],[0,12],[8,0]] ); // bearings
+    rotate([90,0,-15,]) translate ([-1.5, 8, 26])linear_extrude(height = 0.2) polygon( points=[[-2,0],[0,6],[8,0]] ); // bearings
     
     rotate([90,0,-50,]) translate ([8.5, 8, 1.4])linear_extrude(height = 0.2) polygon( points=[[0,0],[0,12],[8,0]] ); //body
     
